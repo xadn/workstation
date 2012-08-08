@@ -1,0 +1,15 @@
+cookbook_paths:
+- ./cookbooks/
+recipes:
+- pivotal_workstation::create_var_chef_cache
+- pivotal_workstation::homebrew
+- pivotal_workstation::defaults_fast_key_repeat_rate
+- pivotal_workstation::gem_no_rdoc_no_ri
+- pivotal_workstation::git
+- pivotal_workstation::rvm
+- pivotal_workstation::mysql
+- pivotal_workstation::nginx
+- pivotal_workstation::ssl_certificate
+- qualvu_workstation::php
+
+
